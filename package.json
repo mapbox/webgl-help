@@ -1,5 +1,5 @@
 {
-  "name": "webgl-support-help",
+  "name": "webgl-help",
   "version": "1.0.0",
   "description": "provide useful assistance to users with none or lacking webgl",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mapbox/webgl-support-help.git"
+    "url": "git+https://github.com/mapbox/webgl-help.git"
   },
   "keywords": [
     "webgl",
@@ -19,7 +19,13 @@
   "author": "Tom MacWright",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mapbox/webgl-support-help/issues"
+    "url": "https://github.com/mapbox/webgl-help/issues"
   },
-  "homepage": "https://github.com/mapbox/webgl-support-help#readme"
+  "homepage": "https://github.com/mapbox/webgl-help#readme",
+  "dependencies": {
+    "ua-parser-js": "^0.7.9"
+  },
+  "devDependencies": {
+    "tap": "^2.2.1"
+  }
 }
