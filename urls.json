@@ -1,0 +1,54 @@
+{
+  "Chrome": {
+    "upgradeUrl": "http://www.google.com/support/chrome/bin/answer.py?answer=95346",
+    "troubleshootingUrl": "http://www.google.com/support/chrome/bin/answer.py?answer=1220892"
+  },
+  "Firefox": {
+    "upgradeUrl": "http://www.mozilla.com/en-US/firefox/new/",
+    "troubleshootingUrl": "https://support.mozilla.com/en-US/kb/how-do-i-upgrade-my-graphics-drivers"
+  },
+  "Opera": {
+    "platforms": {
+      "Android": {
+        "upgradeUrl": "https://market.android.com/details?id=com.opera.browser",
+        "troubleshootingUrl": "http://www.opera.com/support/"
+      }
+    },
+    "upgradeUrl": "http://www.opera.com/",
+    "troubleshootingUrl": "http://www.opera.com/support/"
+  },
+  "Android": {
+    "upgradeUrl": null,
+    "troubleshootingUrl": null
+  },
+  "Safari": {
+    "platforms": {
+      "iPhone/iPod": {
+        "upgradeUrl": "http://www.apple.com/ios/",
+        "troubleshootingUrl": "http://www.apple.com/support/iphone/"
+      },
+      "iPad": {
+        "upgradeUrl": "http://www.apple.com/ios/",
+        "troubleshootingUrl": "http://www.apple.com/support/ipad/"
+      },
+      "Mac": {
+        "upgradeUrl": "http://www.webkit.org/",
+        "troubleshootingUrl": "http://www.webkit.org/blog/919/webgl-draft-specification-now-available/"
+      }
+    },
+    "upgradeUrl": "http://www.webkit.org/",
+    "troubleshootingUrl": "http://www.webkit.org/blog/919/webgl-draft-specification-now-available/"
+  },
+  "Explorer": {
+    "upgradeUrl": "http://www.microsoft.com/ie",
+    "troubleshootingUrl": "http://msdn.microsoft.com/en-us/library/ie/bg182648(v=vs.85).aspx"
+  },
+  "Edge": {
+    "upgradeUrl": "http://www.microsoft.com/en-us/windows/windows-10-upgrade",
+    "troubleshootingUrl": "http://msdn.microsoft.com/en-us/library/ie/bg182648(v=vs.85).aspx"
+  },
+  "unknown": {
+    "upgradeUrl": null,
+    "troubleshootingUrl": null
+  }
+}

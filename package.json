@@ -1,0 +1,25 @@
+{
+  "name": "webgl-support-help",
+  "version": "1.0.0",
+  "description": "provide useful assistance to users with none or lacking webgl",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/webgl-support-help.git"
+  },
+  "keywords": [
+    "webgl",
+    "test",
+    "support",
+    "help"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/webgl-support-help/issues"
+  },
+  "homepage": "https://github.com/mapbox/webgl-support-help#readme"
+}
