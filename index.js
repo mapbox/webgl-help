@@ -3,12 +3,18 @@ var urls = require('./urls.json'),
 
 /**
  * @param {string} userAgentString the contents of navigator.userAgent
- * @returns {Object=} upgrade & troubleshooting urls
+ * @returns {Object} upgrade & troubleshooting urls (or null if not found)
+ * @example
+ * var webglHelp = require('webgl-help');
+ * // get link for troubleshooting
+ * var links = webglHelp(navigator.userAgent);
+ * if (links) {
+ *   // add links.troubleshooting url
+ * }
  */
 function webglHelp(userAgentString) {
   var info = UAParser(userAgentString);
-  if (!info || !info.browser) return;
-  return urls[info.browser.name];
+  return info && info.browser && urls[info.browser.name];
 }
 
 module.exports = webglHelp;

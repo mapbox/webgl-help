@@ -4,7 +4,8 @@
   "description": "provide useful assistance to users with none or lacking webgl",
   "main": "index.js",
   "scripts": {
-    "test": "tap test.js"
+    "test": "tap test.js",
+    "docs": "documentation-readme README.md -s API"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "ua-parser-js": "^0.7.9"
   },
   "devDependencies": {
+    "documentation-readme": "^2.1.0",
     "tap": "^2.2.1"
   }
 }

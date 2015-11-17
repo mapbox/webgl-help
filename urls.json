@@ -11,7 +11,7 @@
     "upgrade": "http://www.opera.com/",
     "troubleshooting": "http://www.opera.com/support/"
   },
-  "Opera Mini Android": {
+  "Opera Mini": {
     "upgrade": "https://market.android.com/details?id=com.opera.browser",
     "troubleshooting": "http://www.opera.com/support/"
   },
@@ -21,7 +21,7 @@
   },
   "Mobile Safari": {
     "upgrade": "http://www.apple.com/ios/",
-    "troubleshooting": "http://www.apple.com/support/ipad/"
+    "troubleshooting": "http://www.apple.com/support/"
   },
   "IE": {
     "upgrade": "http://www.microsoft.com/ie",
