@@ -1,6 +1,6 @@
 # webgl-help
 
-[![build status](https://secure.travis-ci.org/mapbox/webgl-help.png)](http://travis-ci.org/mapbox/webgl-help)
+[![build status](https://secure.travis-ci.org/mapbox/webgl-help.svg)](http://travis-ci.org/mapbox/webgl-help)
 
 Provide useful upgrading & debugging information to users with WebGL
 disabled or unavailable.
